@@ -1,0 +1,498 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EE300F68283C310E006313CC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE300F67283C310E006313CC /* AppDelegate.swift */; };
+		EE300F6A283C310E006313CC /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE300F69283C310E006313CC /* SceneDelegate.swift */; };
+		EE300F71283C3119006313CC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EE300F70283C3119006313CC /* Assets.xcassets */; };
+		EE300F74283C3119006313CC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EE300F72283C3119006313CC /* LaunchScreen.storyboard */; };
+		EE300F8D283C34BC006313CC /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE300F8B283C34BC006313CC /* HomeViewController.swift */; };
+		EE300F8E283C34BC006313CC /* HomeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = EE300F8C283C34BC006313CC /* HomeViewController.xib */; };
+		EE31A746283D83DB0039CCF7 /* EffectCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE31A745283D83DB0039CCF7 /* EffectCell.swift */; };
+		EE33E24328417EDA00E2C472 /* Platillos.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EE33E23128417ED900E2C472 /* Platillos.mp3 */; };
+		EE33E24428417EDA00E2C472 /* Ukelele.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EE33E23228417ED900E2C472 /* Ukelele.mp3 */; };
+		EE33E24528417EDA00E2C472 /* Bajo.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EE33E23328417ED900E2C472 /* Bajo.mp3 */; };
+		EE33E24628417EDA00E2C472 /* Bateria.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EE33E23428417ED900E2C472 /* Bateria.mp3 */; };
+		EE33E24728417EDA00E2C472 /* Trombon.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EE33E23528417ED900E2C472 /* Trombon.mp3 */; };
+		EE33E24828417EDA00E2C472 /* Armonica.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EE33E23628417ED900E2C472 /* Armonica.mp3 */; };
+		EE33E24928417EDA00E2C472 /* Piano.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EE33E23728417ED900E2C472 /* Piano.mp3 */; };
+		EE33E24A28417EDA00E2C472 /* Guitarra.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EE33E23828417ED900E2C472 /* Guitarra.mp3 */; };
+		EE33E24B28417EDA00E2C472 /* Bongo.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EE33E23928417ED900E2C472 /* Bongo.mp3 */; };
+		EE33E24C28417EDA00E2C472 /* Saxofon.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EE33E23A28417ED900E2C472 /* Saxofon.mp3 */; };
+		EE33E24D28417EDA00E2C472 /* Acordeon.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EE33E23B28417EDA00E2C472 /* Acordeon.mp3 */; };
+		EE33E24E28417EDA00E2C472 /* Campana.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EE33E23C28417EDA00E2C472 /* Campana.mp3 */; };
+		EE33E24F28417EDA00E2C472 /* Congas.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EE33E23D28417EDA00E2C472 /* Congas.mp3 */; };
+		EE33E25028417EDA00E2C472 /* Guiro.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EE33E23E28417EDA00E2C472 /* Guiro.mp3 */; };
+		EE33E25128417EDA00E2C472 /* Trompeta.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EE33E23F28417EDA00E2C472 /* Trompeta.mp3 */; };
+		EE33E25228417EDA00E2C472 /* Maracas.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EE33E24028417EDA00E2C472 /* Maracas.mp3 */; };
+		EE33E25328417EDA00E2C472 /* Tambores.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EE33E24128417EDA00E2C472 /* Tambores.mp3 */; };
+		EE33E25428417EDA00E2C472 /* Violin.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EE33E24228417EDA00E2C472 /* Violin.mp3 */; };
+		EE33F91F28403DA00093D1AB /* MyCustomCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE33F91D28403DA00093D1AB /* MyCustomCollectionViewCell.swift */; };
+		EE33F92028403DA00093D1AB /* MyCustomCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = EE33F91E28403DA00093D1AB /* MyCustomCollectionViewCell.xib */; };
+		EE35788A283ED7E2000AD76F /* SoundHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE357889283ED7E2000AD76F /* SoundHelper.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		EE300F64283C310E006313CC /* Instruments.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Instruments.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EE300F67283C310E006313CC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		EE300F69283C310E006313CC /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		EE300F70283C3119006313CC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EE300F73283C3119006313CC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EE300F75283C3119006313CC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EE300F8B283C34BC006313CC /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		EE300F8C283C34BC006313CC /* HomeViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HomeViewController.xib; sourceTree = "<group>"; };
+		EE31A745283D83DB0039CCF7 /* EffectCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EffectCell.swift; sourceTree = "<group>"; };
+		EE33E23128417ED900E2C472 /* Platillos.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = Platillos.mp3; path = "../../../../../GoogleDrive/Mi unidad/Sonidos/Platillos.mp3"; sourceTree = "<group>"; };
+		EE33E23228417ED900E2C472 /* Ukelele.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Ukelele.mp3; sourceTree = "<group>"; };
+		EE33E23328417ED900E2C472 /* Bajo.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = Bajo.mp3; path = "../../../../../GoogleDrive/Mi unidad/Sonidos/Bajo.mp3"; sourceTree = "<group>"; };
+		EE33E23428417ED900E2C472 /* Bateria.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = Bateria.mp3; path = "../../../../../GoogleDrive/Mi unidad/Sonidos/Bateria.mp3"; sourceTree = "<group>"; };
+		EE33E23528417ED900E2C472 /* Trombon.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = Trombon.mp3; path = "../../../../../GoogleDrive/Mi unidad/Sonidos/Trombon.mp3"; sourceTree = "<group>"; };
+		EE33E23628417ED900E2C472 /* Armonica.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = Armonica.mp3; path = "../../../../../GoogleDrive/Mi unidad/Sonidos/Armonica.mp3"; sourceTree = "<group>"; };
+		EE33E23728417ED900E2C472 /* Piano.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = Piano.mp3; path = "../../../../../GoogleDrive/Mi unidad/Sonidos/Piano.mp3"; sourceTree = "<group>"; };
+		EE33E23828417ED900E2C472 /* Guitarra.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Guitarra.mp3; sourceTree = "<group>"; };
+		EE33E23928417ED900E2C472 /* Bongo.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = Bongo.mp3; path = "../../../../../GoogleDrive/Mi unidad/Sonidos/Bongo.mp3"; sourceTree = "<group>"; };
+		EE33E23A28417ED900E2C472 /* Saxofon.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = Saxofon.mp3; path = "../../../../../GoogleDrive/Mi unidad/Sonidos/Saxofon.mp3"; sourceTree = "<group>"; };
+		EE33E23B28417EDA00E2C472 /* Acordeon.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Acordeon.mp3; sourceTree = "<group>"; };
+		EE33E23C28417EDA00E2C472 /* Campana.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = Campana.mp3; path = "../../../../../GoogleDrive/Mi unidad/Sonidos/Campana.mp3"; sourceTree = "<group>"; };
+		EE33E23D28417EDA00E2C472 /* Congas.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Congas.mp3; sourceTree = "<group>"; };
+		EE33E23E28417EDA00E2C472 /* Guiro.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Guiro.mp3; sourceTree = "<group>"; };
+		EE33E23F28417EDA00E2C472 /* Trompeta.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = Trompeta.mp3; path = "../../../../../GoogleDrive/Mi unidad/Sonidos/Trompeta.mp3"; sourceTree = "<group>"; };
+		EE33E24028417EDA00E2C472 /* Maracas.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = Maracas.mp3; path = "../../../../../GoogleDrive/Mi unidad/Sonidos/Maracas.mp3"; sourceTree = "<group>"; };
+		EE33E24128417EDA00E2C472 /* Tambores.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = Tambores.mp3; path = "../../../../../GoogleDrive/Mi unidad/Sonidos/Tambores.mp3"; sourceTree = "<group>"; };
+		EE33E24228417EDA00E2C472 /* Violin.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Violin.mp3; sourceTree = "<group>"; };
+		EE33F91D28403DA00093D1AB /* MyCustomCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyCustomCollectionViewCell.swift; sourceTree = "<group>"; };
+		EE33F91E28403DA00093D1AB /* MyCustomCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MyCustomCollectionViewCell.xib; sourceTree = "<group>"; };
+		EE357889283ED7E2000AD76F /* SoundHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoundHelper.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EE300F61283C310E006313CC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EE300F5B283C310E006313CC = {
+			isa = PBXGroup;
+			children = (
+				EE300F66283C310E006313CC /* Instruments */,
+				EE300F65283C310E006313CC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EE300F65283C310E006313CC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EE300F64283C310E006313CC /* Instruments.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EE300F66283C310E006313CC /* Instruments */ = {
+			isa = PBXGroup;
+			children = (
+				EE300F67283C310E006313CC /* AppDelegate.swift */,
+				EE300F69283C310E006313CC /* SceneDelegate.swift */,
+				EE300F7C283C3128006313CC /* View */,
+				EE300F82283C32BF006313CC /* Controller */,
+				EE300F7E283C3135006313CC /* Model */,
+				EE300F83283C32C5006313CC /* Utill */,
+				EE300F7F283C313C006313CC /* Supporting files */,
+				EE35787D283ECA8C000AD76F /* Sonidos */,
+				EE300F70283C3119006313CC /* Assets.xcassets */,
+			);
+			path = Instruments;
+			sourceTree = "<group>";
+		};
+		EE300F7C283C3128006313CC /* View */ = {
+			isa = PBXGroup;
+			children = (
+				EE300F85283C330E006313CC /* Launch */,
+				EE300F8A283C34A5006313CC /* Home */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		EE300F7E283C3135006313CC /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		EE300F7F283C313C006313CC /* Supporting files */ = {
+			isa = PBXGroup;
+			children = (
+				EE300F75283C3119006313CC /* Info.plist */,
+			);
+			path = "Supporting files";
+			sourceTree = "<group>";
+		};
+		EE300F82283C32BF006313CC /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				EE300F91283C34C1006313CC /* Home */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		EE300F83283C32C5006313CC /* Utill */ = {
+			isa = PBXGroup;
+			children = (
+				EE31A745283D83DB0039CCF7 /* EffectCell.swift */,
+				EE357889283ED7E2000AD76F /* SoundHelper.swift */,
+			);
+			path = Utill;
+			sourceTree = "<group>";
+		};
+		EE300F85283C330E006313CC /* Launch */ = {
+			isa = PBXGroup;
+			children = (
+				EE300F72283C3119006313CC /* LaunchScreen.storyboard */,
+			);
+			path = Launch;
+			sourceTree = "<group>";
+		};
+		EE300F8A283C34A5006313CC /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				EE300F8C283C34BC006313CC /* HomeViewController.xib */,
+				EE33F91E28403DA00093D1AB /* MyCustomCollectionViewCell.xib */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		EE300F91283C34C1006313CC /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				EE300F8B283C34BC006313CC /* HomeViewController.swift */,
+				EE33F91D28403DA00093D1AB /* MyCustomCollectionViewCell.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		EE35787D283ECA8C000AD76F /* Sonidos */ = {
+			isa = PBXGroup;
+			children = (
+				EE33E23B28417EDA00E2C472 /* Acordeon.mp3 */,
+				EE33E23628417ED900E2C472 /* Armonica.mp3 */,
+				EE33E23328417ED900E2C472 /* Bajo.mp3 */,
+				EE33E23428417ED900E2C472 /* Bateria.mp3 */,
+				EE33E23928417ED900E2C472 /* Bongo.mp3 */,
+				EE33E23C28417EDA00E2C472 /* Campana.mp3 */,
+				EE33E23D28417EDA00E2C472 /* Congas.mp3 */,
+				EE33E23E28417EDA00E2C472 /* Guiro.mp3 */,
+				EE33E23828417ED900E2C472 /* Guitarra.mp3 */,
+				EE33E24028417EDA00E2C472 /* Maracas.mp3 */,
+				EE33E23728417ED900E2C472 /* Piano.mp3 */,
+				EE33E23128417ED900E2C472 /* Platillos.mp3 */,
+				EE33E23A28417ED900E2C472 /* Saxofon.mp3 */,
+				EE33E24128417EDA00E2C472 /* Tambores.mp3 */,
+				EE33E23528417ED900E2C472 /* Trombon.mp3 */,
+				EE33E23F28417EDA00E2C472 /* Trompeta.mp3 */,
+				EE33E23228417ED900E2C472 /* Ukelele.mp3 */,
+				EE33E24228417EDA00E2C472 /* Violin.mp3 */,
+			);
+			path = Sonidos;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EE300F63283C310E006313CC /* Instruments */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EE300F78283C3119006313CC /* Build configuration list for PBXNativeTarget "Instruments" */;
+			buildPhases = (
+				EE300F60283C310E006313CC /* Sources */,
+				EE300F61283C310E006313CC /* Frameworks */,
+				EE300F62283C310E006313CC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Instruments;
+			productName = Instruments;
+			productReference = EE300F64283C310E006313CC /* Instruments.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EE300F5C283C310E006313CC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					EE300F63283C310E006313CC = {
+						CreatedOnToolsVersion = 12.4;
+					};
+				};
+			};
+			buildConfigurationList = EE300F5F283C310E006313CC /* Build configuration list for PBXProject "Instruments" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EE300F5B283C310E006313CC;
+			productRefGroup = EE300F65283C310E006313CC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EE300F63283C310E006313CC /* Instruments */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EE300F62283C310E006313CC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE33E24528417EDA00E2C472 /* Bajo.mp3 in Resources */,
+				EE33E24F28417EDA00E2C472 /* Congas.mp3 in Resources */,
+				EE300F74283C3119006313CC /* LaunchScreen.storyboard in Resources */,
+				EE33E24D28417EDA00E2C472 /* Acordeon.mp3 in Resources */,
+				EE33E24828417EDA00E2C472 /* Armonica.mp3 in Resources */,
+				EE33E24C28417EDA00E2C472 /* Saxofon.mp3 in Resources */,
+				EE33E24B28417EDA00E2C472 /* Bongo.mp3 in Resources */,
+				EE33E25428417EDA00E2C472 /* Violin.mp3 in Resources */,
+				EE300F71283C3119006313CC /* Assets.xcassets in Resources */,
+				EE33E25128417EDA00E2C472 /* Trompeta.mp3 in Resources */,
+				EE33E24628417EDA00E2C472 /* Bateria.mp3 in Resources */,
+				EE33E25328417EDA00E2C472 /* Tambores.mp3 in Resources */,
+				EE33E24428417EDA00E2C472 /* Ukelele.mp3 in Resources */,
+				EE33E25228417EDA00E2C472 /* Maracas.mp3 in Resources */,
+				EE33E24928417EDA00E2C472 /* Piano.mp3 in Resources */,
+				EE33E24728417EDA00E2C472 /* Trombon.mp3 in Resources */,
+				EE33F92028403DA00093D1AB /* MyCustomCollectionViewCell.xib in Resources */,
+				EE33E24E28417EDA00E2C472 /* Campana.mp3 in Resources */,
+				EE33E24328417EDA00E2C472 /* Platillos.mp3 in Resources */,
+				EE300F8E283C34BC006313CC /* HomeViewController.xib in Resources */,
+				EE33E24A28417EDA00E2C472 /* Guitarra.mp3 in Resources */,
+				EE33E25028417EDA00E2C472 /* Guiro.mp3 in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EE300F60283C310E006313CC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE300F68283C310E006313CC /* AppDelegate.swift in Sources */,
+				EE33F91F28403DA00093D1AB /* MyCustomCollectionViewCell.swift in Sources */,
+				EE35788A283ED7E2000AD76F /* SoundHelper.swift in Sources */,
+				EE31A746283D83DB0039CCF7 /* EffectCell.swift in Sources */,
+				EE300F6A283C310E006313CC /* SceneDelegate.swift in Sources */,
+				EE300F8D283C34BC006313CC /* HomeViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		EE300F72283C3119006313CC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EE300F73283C3119006313CC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EE300F76283C3119006313CC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EE300F77283C3119006313CC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EE300F79283C3119006313CC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "/Volumes/Datos/IOS/Instruments/Instruments/Supporting files/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Ivan-Quintero.Instruments";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EE300F7A283C3119006313CC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "/Volumes/Datos/IOS/Instruments/Instruments/Supporting files/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Ivan-Quintero.Instruments";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EE300F5F283C310E006313CC /* Build configuration list for PBXProject "Instruments" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE300F76283C3119006313CC /* Debug */,
+				EE300F77283C3119006313CC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EE300F78283C3119006313CC /* Build configuration list for PBXNativeTarget "Instruments" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE300F79283C3119006313CC /* Debug */,
+				EE300F7A283C3119006313CC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EE300F5C283C310E006313CC /* Project object */;
+}
