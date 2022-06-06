@@ -10,9 +10,9 @@ import UIKit
 class MyCustomCollectionViewCell: UICollectionViewCell {
     
     //MARK: - Outlets
-    
-    @IBOutlet weak var instrumentImage: UIImageView!
-    @IBOutlet weak var instrumentLabel: UILabel!
+    // A good practice is to keep all the UI private
+    @IBOutlet weak private var instrumentImage: UIImageView!
+    @IBOutlet weak private var instrumentLabel: UILabel!
           
     // MARK: - Initialization
     
@@ -25,9 +25,15 @@ class MyCustomCollectionViewCell: UICollectionViewCell {
         backgroundColor = .lightGray
         instrumentLabel.font = UIFont.boldSystemFont(ofSize: 12)
         instrumentLabel.textColor = .purple
-        
-        
     }
     
+    func setupWithInstrument(_ instrument: Instrument) {
+        instrumentImage.image = instrument.image
+        instrumentLabel.text = instrument.name
+    }
     
+    func setupWithInstrumentModels(_ instrument: InstrumentModel) {
+        instrumentImage.image = instrument.image
+        instrumentLabel.text = instrument.name
+    }
 }
